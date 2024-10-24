@@ -1,6 +1,5 @@
 def unique_character(words):
-    st=set()
-    for i in words:
-        st.add(i)
-    return st
+    unique_chars=set(words)
+    return unique_chars
+   
 print(unique_character("hello"))
